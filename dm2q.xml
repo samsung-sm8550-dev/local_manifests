@@ -26,7 +26,7 @@
     <project name="samsung-sm8550-dev/android_packages_apps_ParanoidSense" path="packages/apps/ParanoidSense" remote="github" revision="uvite" clone-depth="1"/>
 
     <!-- pixel clocks -->
-    <project name="ArianK16a/proprietary_vendor_pixel_clocks" path="vendor/pixel/clocks" remote="gitlab" revision="lineage-21" clone-depth="1"/>
+    <project name="ArianK16a/proprietary_vendor_pixel_clocks" path="vendor/pixel_clocks" remote="gitlab" revision="lineage-21" clone-depth="1"/>
 
     <!-- ih8sn -->
     <project name="luk1337/ih8sn" path="vendor/ih8sn" remote="github" revision="master" clone-depth="1"/>
