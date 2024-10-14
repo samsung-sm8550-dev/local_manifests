@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="gitlab"
-    fetch="https://gitlab.com" />
-
     <!-- device -->
-    <project name="chaptsand/android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" remote="github" revision="lineage-21" clone-depth="1" />
-    <project name="chaptsand/android_device_samsung_dm2q" path="device/samsung/dm2q" remote="github" revision="lineage-21" clone-depth="1" />
+    <project name="chaptsand/android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" remote="github" revision="lineage-22" />
+    <project name="chaptsand/android_device_samsung_dm2q" path="device/samsung/dm2q" remote="github" revision="lineage-22" />
 
     <!-- kernel -->
     <project name="chaptsand/android_kernel_samsung_sm8550" path="kernel/samsung/sm8550" remote="github" revision="lineage-21" clone-depth="1"/>
@@ -13,24 +10,9 @@
     <project name="chaptsand/android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" remote="github" revision="lineage-21" clone-depth="1" />
 
     <!-- vendor -->
-    <project name="chaptsand/android_vendor_samsung_sm8550-common" path="vendor/samsung/sm8550-common" remote="github" revision="lineage-21" clone-depth="1" />
-    <project name="chaptsand/android_vendor_samsung_dm2q" path="vendor/samsung/dm2q" remote="github" revision="lineage-21" clone-depth="1"/>
+    <project name="chaptsand/android_vendor_samsung_sm8550-common" path="vendor/samsung/sm8550-common" remote="github" revision="lineage-22" clone-depth="1" />
+    <project name="chaptsand/android_vendor_samsung_dm2q" path="vendor/samsung/dm2q" remote="github" revision="lineage-22" clone-depth="1"/>
 
     <!-- hardware -->
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-21"/>
-
-    <!-- vendor extra -->
-    <project name="chaptsand/android_vendor_extra" path="vendor/extra" remote="github" revision="lineage-21" clone-depth="1"/>
-
-    <!-- paranoid sense -->
-    <project name="samsung-sm8550-dev/android_packages_apps_ParanoidSense" path="packages/apps/ParanoidSense" remote="github" revision="uvite" clone-depth="1"/>
-
-    <!-- pixel clocks -->
-    <project name="ArianK16a/proprietary_vendor_pixel_clocks" path="vendor/pixel_clocks" remote="gitlab" revision="lineage-21" clone-depth="1"/>
-
-    <!-- ih8sn -->
-    <project name="luk1337/ih8sn" path="vendor/ih8sn" remote="github" revision="master" clone-depth="1"/>
-
-    <!-- MTG -->
-    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" clone-depth="1"/>
 </manifest>
